@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Accelerations"
+        android:textSize="25sp"
+
+
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="X"
+        android:id="@+id/TextView01"
+        android:textSize="25sp"
+
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Y"
+        android:id="@+id/TextView02"
+        android:textSize="25sp"
+
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Z"
+        android:id="@+id/TextView03"
+        android:textSize="25sp"
+
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Anguler Accelerations"
+        android:textSize="25sp"
+
+
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="X"
+        android:id="@+id/TextView11"
+        android:textSize="25sp"
+
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Y"
+        android:id="@+id/TextView12"
+        android:textSize="25sp"
+
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Z"
+        android:id="@+id/TextView13"
+        android:textSize="25sp"
+
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Angle"
+        android:textSize="25sp"
+
+
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="X"
+        android:id="@+id/TextView21"
+        android:textSize="25sp"
+
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Y"
+        android:id="@+id/TextView22"
+        android:textSize="25sp"
+
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Z"
+        android:id="@+id/TextView23"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:id="@+id/TextViewt"
+        android:textSize="25sp"
+        />
+</LinearLayout>
+
+
+
