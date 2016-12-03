@@ -1,19 +1,17 @@
 package com.example.andriod.accelerometer;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Bundle;
+import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import com.example.andriod.accelerometer.R;
-
-import static android.R.attr.angle;
 
 public class MainActivity extends Activity implements SensorEventListener {
     private TextView text_x;
@@ -84,6 +82,18 @@ public class MainActivity extends Activity implements SensorEventListener {
             text_anglex.setText("No rotation vector");
         }
         aSensorManager.registerListener(this,angleSensor,aSensorManager.SENSOR_DELAY_NORMAL);
+
+        startActivity(new Intent(this, DetectDevicesActivity.class));
+    }
+
+    public void deviceMode(View v)
+    {
+        startActivity(new Intent(this, DetectDevicesActivity.class));
+    }
+
+    public void accessoryMode(View v)
+    {
+        startActivity(new Intent(this, DetectAccessoriesActivity.class));
     }
     @Override
     public void onAccuracyChanged(Sensor sensor, int accuracy) {

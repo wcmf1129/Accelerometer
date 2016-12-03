@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Accelerometer</string>
+    <string name="title_activity_detect">DetectActivity</string>
+    <string name="pick_accessory">pick_accessory</string>
+    <string name="pick_device">pick_device</string>
+    <string name="title_activity_detect_devices">DetectDevicesActivity</string>
 </resources>

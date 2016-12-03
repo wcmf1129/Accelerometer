@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              tools:context=".MainActivity"
     >
+
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -12,27 +15,30 @@
 
 
         />
+
     <TextView
+        android:id="@+id/TextView01"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="X"
-        android:id="@+id/TextView01"
         android:textSize="25sp"
 
         />
+
     <TextView
+        android:id="@+id/TextView02"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Y"
-        android:id="@+id/TextView02"
         android:textSize="25sp"
 
         />
+
     <TextView
+        android:id="@+id/TextView03"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Z"
-        android:id="@+id/TextView03"
         android:textSize="25sp"
 
         />
@@ -45,27 +51,30 @@
 
 
         />
+
     <TextView
+        android:id="@+id/TextView11"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="X"
-        android:id="@+id/TextView11"
         android:textSize="25sp"
 
         />
+
     <TextView
+        android:id="@+id/TextView12"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Y"
-        android:id="@+id/TextView12"
         android:textSize="25sp"
 
         />
+
     <TextView
+        android:id="@+id/TextView13"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Z"
-        android:id="@+id/TextView13"
         android:textSize="25sp"
 
         />
@@ -80,36 +89,50 @@
         />
 
     <TextView
+        android:id="@+id/TextView21"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="X"
-        android:id="@+id/TextView21"
         android:textSize="25sp"
 
         />
+
     <TextView
+        android:id="@+id/TextView22"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Y"
-        android:id="@+id/TextView22"
         android:textSize="25sp"
 
         />
+
     <TextView
+        android:id="@+id/TextView23"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Z"
-        android:id="@+id/TextView23"
         android:textSize="25sp"
         />
 
     <TextView
+        android:id="@+id/TextViewt"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Time"
-        android:id="@+id/TextViewt"
         android:textSize="25sp"
         />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="deviceMode"
+        android:text="device mode"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="accessoryMode"
+        android:text="accessory mode"/>
 </LinearLayout>
 
 
